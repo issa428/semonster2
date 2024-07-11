@@ -3,12 +3,23 @@
  */
 package org.example;
 
+import java.util.Scanner;
+
 public class App {
+
+    
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(new App().getGreeting());     
+        System.out.print("Sum of " + 2.0 + " and " + 3.5 + " is " + new AddCalc().AddCalculate());
+        scanner.close();
     }
+
+    
+
+    
 }
