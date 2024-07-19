@@ -15,7 +15,7 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(new App().getGreeting());     
-        System.out.print("Sum of " + 2.0 + " and " + 3.5 + " is " + new AddCalc().AddCalculate());
+        System.out.print("Sum of " + 2.0 + " and " + 3.0 + " is " + new AddCalc().AddCalculate());
         scanner.close();
     }
 
