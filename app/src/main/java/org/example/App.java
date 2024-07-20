@@ -10,5 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        Calculate_sub calculate = new Calculate_sub();
+        System.out.println(calculate.sub(2, 1));
     }
 }
